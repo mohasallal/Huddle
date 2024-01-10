@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100dvw;
+    min-width: 1673px;
+    height: 100dvh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url(./Attachments/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100dvw 100dvh;
+    color: white;
+}
+
+header {
+    padding: 50px 0px 0px 50px;
+}
+
+main {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    filter: drop-shadow(0.5px 2px 3px rgba(0, 0, 0, 0.5));
+    border-radius: 30px;
+    font-size: 15px;
+    color: hsl(257, 40%, 49%);
+
+}
+
+button:hover {
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in-out;
+    color: white;
+    background-color: hotpink;
+    cursor: pointer;
+}
+
+footer {
+    margin: 20px 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.FooterLogos span a img {
+    width: 30px;
+    aspect-ratio: 1/1;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    padding: 2px;
+    margin: 5px;
+}
