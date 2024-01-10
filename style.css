@@ -6,11 +6,12 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100dvw;
-    min-width: 1545px;
     background-color: hsl(257, 40%, 49%);
     background-image: url(./Attachments/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     color: white;
 }
 
@@ -24,6 +25,10 @@ main {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+main div img {
+    width: 600px;
 }
 
 h1 {
